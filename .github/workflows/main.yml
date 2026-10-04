@@ -1,1 +1,21 @@
+name: Kiem Tra CI/CD Tu Dong
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  chay-thu-nghiem:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Lay ma nguon ve may ao
+        uses: actions/checkout@v4
+
+      - name: In loi chao mung thanh cong
+        run: |
+          echo "Xin chao anh Duy!"
+          echo "Pipeline GitHub Actions da chay thanh cong 100%!”
+
 
