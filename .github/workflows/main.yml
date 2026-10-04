@@ -15,7 +15,7 @@ jobs:
 
       - name: In loi chao mung thanh cong
         run: |
-          echo "Xin chao anh Duy!"
-          echo "Pipeline GitHub Actions da chay thanh cong 100%!”
+          echo "Xin chao anh Duy"
+          echo "Pipeline GitHub Actions da chay thanh cong 100”
 
 
